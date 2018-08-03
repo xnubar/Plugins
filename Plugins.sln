@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "Plugins\Plugins.csproj", "{C50DA1E5-D568-403E-95E8-3B44FDDF3398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyPlugins", "MyPlugins", "{4981BAB4-5BF6-465A-9480-323F9A9F9132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{A01575CB-DB5A-4A82-8235-4E3E4F167AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviePlugin", "MoviePlugin\MoviePlugin.csproj", "{7E455F06-4E57-455E-B6F9-F1C414FA9499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslatePlugin", "TranslatePlugin\TranslatePlugin.csproj", "{7E2EAC03-C726-4F33-9496-E33728D859D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherPlugin", "WeatherPlugin\WeatherPlugin.csproj", "{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C50DA1E5-D568-403E-95E8-3B44FDDF3398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50DA1E5-D568-403E-95E8-3B44FDDF3398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50DA1E5-D568-403E-95E8-3B44FDDF3398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50DA1E5-D568-403E-95E8-3B44FDDF3398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01575CB-DB5A-4A82-8235-4E3E4F167AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01575CB-DB5A-4A82-8235-4E3E4F167AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01575CB-DB5A-4A82-8235-4E3E4F167AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01575CB-DB5A-4A82-8235-4E3E4F167AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E455F06-4E57-455E-B6F9-F1C414FA9499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E455F06-4E57-455E-B6F9-F1C414FA9499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E455F06-4E57-455E-B6F9-F1C414FA9499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E455F06-4E57-455E-B6F9-F1C414FA9499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2EAC03-C726-4F33-9496-E33728D859D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2EAC03-C726-4F33-9496-E33728D859D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2EAC03-C726-4F33-9496-E33728D859D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2EAC03-C726-4F33-9496-E33728D859D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A01575CB-DB5A-4A82-8235-4E3E4F167AFA} = {4981BAB4-5BF6-465A-9480-323F9A9F9132}
+		{7E455F06-4E57-455E-B6F9-F1C414FA9499} = {4981BAB4-5BF6-465A-9480-323F9A9F9132}
+		{7E2EAC03-C726-4F33-9496-E33728D859D3} = {4981BAB4-5BF6-465A-9480-323F9A9F9132}
+		{AC00FAC7-A1BC-4D59-8D51-B5562C5A1475} = {4981BAB4-5BF6-465A-9480-323F9A9F9132}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD855BE-1A9B-459D-AE34-B19A8163DE83}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="Plugins.View.MovieView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Plugins.View"
+             mc:Ignorable="d" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"            
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="0.2*"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock  Grid.Row="0" Text="  BACK TO OPTIONS" FontSize="20" FontWeight="Bold">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding BackToMenu}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+        </TextBlock>
+        <ListBox Grid.Row="1" ItemsSource="{Binding Movies}" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Name="MoviesList">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel Orientation="Vertical" Margin="5">
+                        <TextBlock FontSize="20" Text="{Binding Path=Title}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Released}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Runtime}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Writer}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Language}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Country}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=Type}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding Path=imdbRating}" HorizontalAlignment="Center" Foreground="Yellow"/>
+                        <TextBlock FontSize="16" Text="{Binding Path=Plot}" HorizontalAlignment="Center" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="5" Orientation="Horizontal"  HorizontalAlignment="Stretch">
+                    </WrapPanel>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+    </Grid>
+</UserControl>

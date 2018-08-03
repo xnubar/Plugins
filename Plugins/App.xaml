@@ -1,0 +1,22 @@
+﻿<Application x:Class="Plugins.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Plugins"
+             xmlns:ViewModels="clr-namespace:Plugins.ViewModel"
+             xmlns:View="clr-namespace:Plugins.View"
+             StartupUri="View/MainWindowView.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type ViewModels:MovieViewModel}">
+            <View:MovieView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:OptionsViewModel}">
+            <View:OptionsView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:TranslateViewModel}">
+            <View:TranslateView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModels:WeatherViewModel}">
+            <View:WeatherView/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Plugins\MoviePlugin\obj\Debug\MoviePlugin.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Plugins\MoviePlugin\obj\Debug\MoviePlugin.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\MoviePlugin.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\MoviePlugin.pdb
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Plugin.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Plugin.pdb
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\Plugins\MoviePlugin\obj\Debug\MoviePlugin.csproj.CopyComplete
+C:\Users\User\source\repos\Plugins\MoviePlugin\obj\Debug\MoviePlugin.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\obj\Debug\MoviePlugin.pdb
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\User\source\repos\Plugins\MoviePlugin\bin\Debug\System.Windows.Interactivity.xml

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\WeatherPlugin.dll
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\WeatherPlugin.pdb
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\Plugin.dll
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\Plugin.pdb
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\Plugins\WeatherPlugin\obj\Debug\WeatherPlugin.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Plugins\WeatherPlugin\obj\Debug\WeatherPlugin.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Plugins\WeatherPlugin\obj\Debug\WeatherPlugin.csproj.CopyComplete
+C:\Users\User\source\repos\Plugins\WeatherPlugin\obj\Debug\WeatherPlugin.dll
+C:\Users\User\source\repos\Plugins\WeatherPlugin\obj\Debug\WeatherPlugin.pdb
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\WeatherPlugin.dll.config
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User\source\repos\Plugins\WeatherPlugin\bin\Debug\System.Net.Http.Formatting.xml

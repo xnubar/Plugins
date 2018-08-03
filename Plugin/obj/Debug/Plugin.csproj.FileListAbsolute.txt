@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\Plugin.dll
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\Plugin.pdb
+C:\Users\User\source\repos\Plugins\Plugin\obj\Debug\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Plugins\Plugin\obj\Debug\Plugin.dll
+C:\Users\User\source\repos\Plugins\Plugin\obj\Debug\Plugin.pdb
+C:\Users\User\source\repos\Plugins\Plugin\obj\Debug\Plugin.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\User\source\repos\Plugins\Plugin\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\User\source\repos\Plugins\Plugin\obj\Debug\Plugin.csproj.CopyComplete
